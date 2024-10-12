@@ -1,3 +1,14 @@
-[gd_scene format=3 uid="uid://duwqics5lukxb"]
+[gd_scene load_steps=2 format=3 uid="uid://duwqics5lukxb"]
+
+[ext_resource type="PackedScene" uid="uid://csufkj75kpw8u" path="res://Entities/Character/Player/player.tscn" id="1_opkq4"]
 
 [node name="GameplayScene" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_opkq4")]
+position = Vector2(229, 260)
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = 38.0
+offset_top = 253.0
+offset_right = 165.0
+offset_bottom = 942.0
