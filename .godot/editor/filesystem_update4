@@ -1,0 +1,9 @@
+res://Scene/Main/Title/animated_title_screen.tscn
+res://Scene/Main/Title/animated_title_screen.gd
+res://Autolaud/InputManager/InputManager.gd
+res://Entities/Character/Player/PlayerRelatedClass/Input/PlayerInput.gd
+res://Autolaud/MainMusic/main_music.gd
+res://Autolaud/MainMusic/main_music.tscn
+res://default_bus_layout.tres
+res://Scene/CreditScene/Credit.tscn
+res://Scene/OptionScene/Option.tscn

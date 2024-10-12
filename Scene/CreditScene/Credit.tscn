@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://u7tk3ovi2c83"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bgiqe"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+bg_color = Color(0.1, 0.1, 0.1, 0.6)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+corner_detail = 5
+
+[sub_resource type="Theme" id="Theme_4wqct"]
+Panel/styles/panel = SubResource("StyleBoxFlat_bgiqe")
+
+[node name="Credit" type="Node2D"]
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = 333.0
+offset_top = 145.0
+offset_right = 835.0
+offset_bottom = 543.0
+theme = SubResource("Theme_4wqct")
+
+[node name="ItemList" type="ItemList" parent="Panel"]
+layout_mode = 0
+offset_left = 62.0
+offset_top = 30.0
+offset_right = 431.0
+offset_bottom = 354.0
+item_count = 1
+item_0/text = "Text:empitiy"
