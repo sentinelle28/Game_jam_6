@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bb76eo8ng0ry2"]
+
+[node name="level_construct" type="Node2D"]
+
+[node name="inventory" type="Panel" parent="."]
+offset_left = -3.0
+offset_top = 512.0
+offset_right = 1156.0
+offset_bottom = 649.0
+
+[node name="zone_to_build" type="Area2D" parent="."]
+monitorable = false

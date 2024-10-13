@@ -1,9 +1,12 @@
+CollisionShape2D
+Area2D
+Panel
+RigidBody2D
 ColorRect
 Camera2D
 AnimationTree
 AnimationPlayer
 AnimatedSprite2D
 Sprite2D
-CollisionShape2D
 CharacterBody2D
 Timer

@@ -1,7 +1,13 @@
 extends CharacterBody2D
 
+class_name Player
+
 @export var speed:int = 300
 var last_direction:Vector2 = Vector2(1,0)
+
+func _ready() -> void:
+	global_position = PlayerLocation.get_value()
+
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:

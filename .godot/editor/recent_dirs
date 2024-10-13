@@ -1,3 +1,7 @@
+res://Entities/Character/Player
+res://Scene/level_construct
+res://Common/piece
+res://Autolaud/player_location
+res://Common/level_object
 res://asset/The Adventurer - Free/Walk
 res://asset/The Adventurer - Free/Idle
-res://Entities/Character/Player

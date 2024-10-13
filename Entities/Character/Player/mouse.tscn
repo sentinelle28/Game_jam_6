@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dko8700mavvdo"]
+
+[ext_resource type="Script" path="res://Entities/Character/Player/mouse.gd" id="1_mo53t"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bcymp"]
+radius = 22.0227
+
+[node name="mouse" type="Area2D"]
+monitorable = false
+script = ExtResource("1_mo53t")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_bcymp")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
