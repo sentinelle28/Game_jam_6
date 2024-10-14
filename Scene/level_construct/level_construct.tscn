@@ -26,19 +26,51 @@ offset_bottom = 515.0
 
 [node name="test" type="Button" parent="side"]
 layout_mode = 0
-offset_left = 72.0
-offset_top = 144.0
-offset_right = 178.0
-offset_bottom = 224.0
+offset_left = 80.0
+offset_top = 312.0
+offset_right = 186.0
+offset_bottom = 392.0
 text = "Test"
 
-[node name="Button2" type="Button" parent="side"]
+[node name="retry" type="Button" parent="side"]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 408.0
+offset_right = 186.0
+offset_bottom = 488.0
+text = "Retry"
+
+[node name="text" type="Label" parent="side"]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 72.0
+offset_right = 88.0
+offset_bottom = 95.0
+text = "Requiered Height:"
+
+[node name="text2" type="Label" parent="side"]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 144.0
+offset_right = 187.0
+offset_bottom = 167.0
+text = "Current Height:"
+
+[node name="height_level" type="Label" parent="side"]
 layout_mode = 0
 offset_left = 72.0
-offset_top = 296.0
-offset_right = 178.0
-offset_bottom = 376.0
-text = "Retry"
+offset_top = 104.0
+offset_right = 211.0
+offset_bottom = 127.0
+text = "100"
+
+[node name="height_level2" type="Label" parent="side"]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 184.0
+offset_right = 211.0
+offset_bottom = 207.0
+text = "0"
 
 [node name="Timer" type="Timer" parent="."]
 one_shot = true
@@ -48,4 +80,5 @@ position = Vector2(280, 512)
 target_position = Vector2(1000, 0)
 
 [connection signal="pressed" from="side/test" to="." method="_activate"]
+[connection signal="pressed" from="side/retry" to="." method="_on_retry_pressed"]
 [connection signal="timeout" from="Timer" to="." method="_check"]
