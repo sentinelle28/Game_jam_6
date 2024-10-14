@@ -1,12 +1,6 @@
-res://Common/level_object/entry.tscn
-res://Common/level_object/entry.gd
-res://Autolaud/player_location/player_location.gd
-res://Entities/Character/Player/player.gd
-res://Entities/Character/Player/player.tscn
-res://Scene/Main/main.tscn
-res://Scene/GameplayScene/gameplay_scene.tscn
-res://Common/piece/piece.tscn
-res://Common/piece/piece.gd
 res://Scene/level_construct/level_construct.tscn
+res://Scene/level_construct/inventory.gd
 res://Entities/Character/Player/mouse.tscn
 res://Entities/Character/Player/mouse.gd
+res://Scene/level_construct/zone_to_build.gd
+res://Scene/level_construct/level_construct.gd
