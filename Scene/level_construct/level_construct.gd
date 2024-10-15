@@ -26,13 +26,13 @@ func _process(delta: float) -> void:
 	
 	
 	if can_go and $RayCast2D.is_colliding():
-		$RayCast2D.global_position += Vector2(0,300*delta)
+		$RayCast2D.global_position += Vector2(0,1)
 	elif not $RayCast2D.is_colliding():
 		var dif:float = $RayCast2D.global_position.y - start_pos.y
 		if dif < height_requiere: #failure
-			pass
+			print("fail")
 		else: #victory
-			pass
+			print("good")
 
 
 func _on_retry_pressed() -> void:

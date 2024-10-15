@@ -25,19 +25,18 @@ func _on_body_exited(body: Node2D) -> void:
 	if body == selected_piece:
 		selected_piece = null
 
-func _take_piece(delta:float)->void:
+func _take_piece(_delta:float)->void:
 	if selected_piece!= null:
 		if Input.is_action_pressed("pick_up"):
-			
-			selected_piece.global_position.x = lerp(selected_piece.global_position.x,global_position.x,delta)
-			selected_piece.global_position.y = lerp(selected_piece.global_position.y,global_position.y,delta)
+			build_zone._add_child(selected_piece)
+			selected_piece.global_position.x = global_position.x
+			selected_piece.global_position.y = global_position.y
 		elif Input.is_action_just_released("pick_up"):
 			if not can_build or selected_piece.colliding():
 				inventory._add_child(selected_piece)
 				selected_piece = null
 			else:
 				selected_piece.global_position = global_position
-				build_zone._add_child(selected_piece)
 				selected_piece = null
 
 func _enter_build_zone()->void:

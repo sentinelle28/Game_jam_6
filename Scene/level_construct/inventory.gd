@@ -8,7 +8,7 @@ func _add_child(node:Piece)->void:
 	
 func _positionate(node:Piece)->void:
 	if get_child_count() > 1:
-		node.global_position = get_child(-2).global_position + Vector2(50,0)
+		node.global_position = get_child(-2).global_position + Vector2(0,50)
 	else:
 		node.global_position = Vector2(50,580)
 		

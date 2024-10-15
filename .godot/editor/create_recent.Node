@@ -1,3 +1,6 @@
+CollisionShape2D
+StaticBody2D
+Sprite2D
 Label
 RayCast2D
 Timer
@@ -6,10 +9,6 @@ Panel
 Node2D
 MenuBar
 ItemList
-CollisionShape2D
 Area2D
 RigidBody2D
 ColorRect
-Camera2D
-AnimationTree
-AnimationPlayer

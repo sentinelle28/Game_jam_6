@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bgvw3fam2muyr"
-path="res://.godot/imported/GothicFurnitureSprites48x48.png-5f59fdf926dbeb5b032d59b2a3061ab8.ctex"
+uid="uid://5tcf1i6lfmru"
+path="res://.godot/imported/Sapphire.png-5c38fe9a8bb73e4fa6eaaaae3c1e52b0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/GothicFurnitureSprites48x48.png"
-dest_files=["res://.godot/imported/GothicFurnitureSprites48x48.png-5f59fdf926dbeb5b032d59b2a3061ab8.ctex"]
+source_file="res://asset/piece/Pixel Art Icon Pack - RPG/Ore & Gem/Sapphire.png"
+dest_files=["res://.godot/imported/Sapphire.png-5c38fe9a8bb73e4fa6eaaaae3c1e52b0.ctex"]
 
 [params]
 

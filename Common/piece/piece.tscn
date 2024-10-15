@@ -6,7 +6,6 @@
 
 [node name="piece" type="RigidBody2D"]
 physics_material_override = SubResource("PhysicsMaterial_vkine")
-freeze = true
 script = ExtResource("1_xlpis")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

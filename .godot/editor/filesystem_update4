@@ -1,2 +1,12 @@
-res://Scene/level_construct/level_construct.gd
 res://Scene/level_construct/level_construct.tscn
+res://Scene/level_construct/inventory.gd
+res://Scene/Main/main.tscn
+res://Scene/GameplayScene/gameplay_scene.tscn
+res://Entities/Character/Player/player.tscn
+res://Common/level_object/entry.tscn
+res://Entities/Character/Player/mouse.tscn
+res://Common/piece/piece.tscn
+res://Entities/Character/Player/mouse.gd
+res://Entities/piece_lib/paper.tscn
+res://Common/piece/piece.gd
+res://Scene/level_construct/level_construct.gd

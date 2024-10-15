@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://bkuxrsset6jjm"]
+
+[ext_resource type="PackedScene" uid="uid://ca3rr5u71gq3g" path="res://Common/piece/piece.tscn" id="1_4a4v1"]
+[ext_resource type="Texture2D" uid="uid://bp8g7splpaeuj" path="res://asset/piece/Pixel Art Icon Pack - RPG/Material/Fabric.png" id="2_3utle"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lhrux"]
+size = Vector2(30, 26)
+
+[node name="paper" instance=ExtResource("1_4a4v1")]
+freeze_mode = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_3utle")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_lhrux")

@@ -1,9 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1728932522
+::res://::1728991941
 default_bus_layout.tres::AudioBusLayout::1963651439668976696::1728209388::0::1::::<><>::
 icon.svg::CompressedTexture2D::162903500137596153::1728208646::1728208710::1::::<><>::
-::res://asset/::1728925418
-GothicFurnitureSprites48x48.png::CompressedTexture2D::2852291717625302433::1728925417::1728925418::1::::<><>::
+::res://asset/::1728992109
 ::res://asset/floating_skull_enemy/::1728925417
 ::res://asset/floating_skull_enemy/floating_skull_enemy/::1728925417
 license.txt::TextFile::-1::1728925417::0::1::::<><>::
@@ -113,6 +112,134 @@ frame0015.png::CompressedTexture2D::5250230784951701415::1728925417::1728925418:
 ::res://asset/floating_skull_enemy/floating_skull_enemy/style_E/spritesheet/::1728925418
 spritesheet.png::CompressedTexture2D::1963574419323635710::1728925417::1728925418::1::::<><>::
 spritesheet.txt::TextFile::-1::1728925417::0::1::::<><>::
+::res://asset/hub/::1728992087
+GothicFurnitureSprites48x48.png::CompressedTexture2D::2852291717625302433::1728925417::1728991942::1::::<><>::
+::res://asset/hub/HalloweenPack1Free/::1728992100
+::res://asset/hub/HalloweenPack1Free/HalloweenPack1Free/::1728992087
+Candle.png::CompressedTexture2D::4612350782377640972::1728992087::1728992087::1::::<><>::
+LittleCandle.png::CompressedTexture2D::870147818060231679::1728992087::1728992087::1::::<><>::
+LittlePumpkinDecorations.png::CompressedTexture2D::1216191551998087430::1728992087::1728992087::1::::<><>::
+Skull.png::CompressedTexture2D::6178317167247454830::1728992087::1728992087::1::::<><>::
+::res://asset/hub/Houses_Pack (1)/::1728992082
+houses.png::CompressedTexture2D::4529403212371730319::1728992082::1728992082::1::::<><>::
+public-license.txt::TextFile::-1::1728992082::0::1::::<><>::
+::res://asset/piece/::1728992121
+::res://asset/piece/Pixel Art Icon Pack - RPG/::1728992121
+::res://asset/piece/Pixel Art Icon Pack - RPG/Equipment/::1728992121
+Bag.png::CompressedTexture2D::2574293551684501339::1728992121::1728992122::1::::<><>::
+Belt.png::CompressedTexture2D::2434799993148761837::1728992121::1728992122::1::::<><>::
+Helm.png::CompressedTexture2D::7227385713986483010::1728992121::1728992122::1::::<><>::
+Iron Armor.png::CompressedTexture2D::6549070967243644825::1728992121::1728992122::1::::<><>::
+Iron Boot.png::CompressedTexture2D::5515163251941765094::1728992121::1728992122::1::::<><>::
+Iron Helmet.png::CompressedTexture2D::1912293960488511472::1728992121::1728992122::1::::<><>::
+Leather Armor.png::CompressedTexture2D::4948774431702723162::1728992121::1728992122::1::::<><>::
+Leather Boot.png::CompressedTexture2D::8777097385456826796::1728992121::1728992122::1::::<><>::
+Leather Helmet.png::CompressedTexture2D::1445932882093095168::1728992121::1728992122::1::::<><>::
+Wizard Hat.png::CompressedTexture2D::6730360669920314954::1728992121::1728992122::1::::<><>::
+Wooden Armor.png::CompressedTexture2D::5970453994184103534::1728992121::1728992122::1::::<><>::
+::res://asset/piece/Pixel Art Icon Pack - RPG/Food/::1728992121
+Apple.png::CompressedTexture2D::3036927109827139841::1728992121::1728992122::1::::<><>::
+Beer.png::CompressedTexture2D::5982921032846112143::1728992121::1728992122::1::::<><>::
+Bread.png::CompressedTexture2D::4377635675527720394::1728992121::1728992122::1::::<><>::
+Cheese.png::CompressedTexture2D::4146429013856899558::1728992121::1728992122::1::::<><>::
+Fish Steak.png::CompressedTexture2D::334192784655880535::1728992121::1728992122::1::::<><>::
+Green Apple.png::CompressedTexture2D::7067376074815792778::1728992121::1728992122::1::::<><>::
+Ham.png::CompressedTexture2D::9197252191104271662::1728992121::1728992122::1::::<><>::
+Meat.png::CompressedTexture2D::3867592807669475886::1728992121::1728992122::1::::<><>::
+Mushroom.png::CompressedTexture2D::8238448561257369932::1728992121::1728992122::1::::<><>::
+Wine 2.png::CompressedTexture2D::867738750078049878::1728992121::1728992122::1::::<><>::
+Wine.png::CompressedTexture2D::5503833004551913027::1728992121::1728992122::1::::<><>::
+::res://asset/piece/Pixel Art Icon Pack - RPG/Material/::1728992121
+Fabric.png::CompressedTexture2D::3507800220621323729::1728992121::1728992122::1::::<><>::
+Leather.png::CompressedTexture2D::7228970543666169547::1728992121::1728992122::1::::<><>::
+Paper.png::CompressedTexture2D::9162712311975935456::1728992121::1728992122::1::::<><>::
+Rope.png::CompressedTexture2D::6435737682942120577::1728992121::1728992122::1::::<><>::
+String.png::CompressedTexture2D::4141275712258290946::1728992121::1728992122::1::::<><>::
+Wood Log.png::CompressedTexture2D::3162931107100715582::1728992121::1728992122::1::::<><>::
+Wooden Plank.png::CompressedTexture2D::1254117418493091990::1728992121::1728992122::1::::<><>::
+Wool.png::CompressedTexture2D::173913064081388059::1728992121::1728992122::1::::<><>::
+::res://asset/piece/Pixel Art Icon Pack - RPG/Misc/::1728992121
+Book 2.png::CompressedTexture2D::5612770995852773428::1728992121::1728992122::1::::<><>::
+Book 3.png::CompressedTexture2D::6241744495413174380::1728992121::1728992122::1::::<><>::
+Book.png::CompressedTexture2D::5954044233484279047::1728992121::1728992122::1::::<><>::
+Candle.png::CompressedTexture2D::1467788724330552069::1728992121::1728992122::1::::<><>::
+Chest.png::CompressedTexture2D::5126322558298039923::1728992121::1728992122::1::::<><>::
+Copper Coin.png::CompressedTexture2D::3999351007915095899::1728992121::1728992122::1::::<><>::
+Crate.png::CompressedTexture2D::2425300334947704910::1728992121::1728992122::1::::<><>::
+Envolop.png::CompressedTexture2D::6106861924586952909::1728992121::1728992122::1::::<><>::
+Gear.png::CompressedTexture2D::705359061428210282::1728992121::1728992122::1::::<><>::
+Golden Coin.png::CompressedTexture2D::3726738283847784009::1728992121::1728992122::1::::<><>::
+Golden Key.png::CompressedTexture2D::3808925793825086258::1728992121::1728992122::1::::<><>::
+Heart.png::CompressedTexture2D::5643650804979010728::1728992121::1728992122::1::::<><>::
+Iron Key.png::CompressedTexture2D::5944193257577967221::1728992121::1728992122::1::::<><>::
+Lantern.png::CompressedTexture2D::5299909413228854253::1728992121::1728992122::1::::<><>::
+Map.png::CompressedTexture2D::7957098742360934373::1728992121::1728992122::1::::<><>::
+Rune Stone.png::CompressedTexture2D::2264183824956632734::1728992121::1728992122::1::::<><>::
+Scroll.png::CompressedTexture2D::926493029391594397::1728992121::1728992122::1::::<><>::
+Silver Coin.png::CompressedTexture2D::6918116341135626067::1728992121::1728992122::1::::<><>::
+Silver Key.png::CompressedTexture2D::2915349558911014088::1728992121::1728992122::1::::<><>::
+::res://asset/piece/Pixel Art Icon Pack - RPG/Monster Part/::1728992121
+Bone.png::CompressedTexture2D::490592371770079115::1728992121::1728992122::1::::<><>::
+Egg.png::CompressedTexture2D::1163743131293985117::1728992121::1728992122::1::::<><>::
+Feather.png::CompressedTexture2D::2571089848614660363::1728992121::1728992122::1::::<><>::
+Monster Egg.png::CompressedTexture2D::8579515848286283864::1728992121::1728992122::1::::<><>::
+Monster Eye.png::CompressedTexture2D::9218012924654472363::1728992121::1728992122::1::::<><>::
+Monster Meat.png::CompressedTexture2D::6967337545111122665::1728992121::1728992122::1::::<><>::
+Skull.png::CompressedTexture2D::1755571914762538133::1728992121::1728992122::1::::<><>::
+Slime Gel.png::CompressedTexture2D::6719412863851547577::1728992121::1728992122::1::::<><>::
+::res://asset/piece/Pixel Art Icon Pack - RPG/Ore & Gem/::1728992121
+Coal.png::CompressedTexture2D::8231624521651254138::1728992121::1728992122::1::::<><>::
+Copper Ingot.png::CompressedTexture2D::2082594292478302553::1728992121::1728992122::1::::<><>::
+Copper Nugget.png::CompressedTexture2D::166319587054880059::1728992121::1728992122::1::::<><>::
+Crystal.png::CompressedTexture2D::3979171146423468347::1728992121::1728992122::1::::<><>::
+Cut Emerald.png::CompressedTexture2D::5092658497975315300::1728992121::1728992122::1::::<><>::
+Cut Ruby.png::CompressedTexture2D::1884703182396249090::1728992121::1728992122::1::::<><>::
+Cut Sapphire.png::CompressedTexture2D::2857082484210995878::1728992121::1728992122::1::::<><>::
+Cut Topaz.png::CompressedTexture2D::7853899176492982838::1728992121::1728992122::1::::<><>::
+Diamond.png::CompressedTexture2D::6953933504356691279::1728992121::1728992122::1::::<><>::
+Emerald.png::CompressedTexture2D::7002688562328490587::1728992121::1728992122::1::::<><>::
+Gold Nugget.png::CompressedTexture2D::9045662123420668655::1728992121::1728992122::1::::<><>::
+Golden Ingot.png::CompressedTexture2D::8856235318576905030::1728992121::1728992122::1::::<><>::
+Obsidian.png::CompressedTexture2D::2439090873577231819::1728992121::1728992122::1::::<><>::
+Pearl.png::CompressedTexture2D::2930125356084163522::1728992121::1728992122::1::::<><>::
+Ruby.png::CompressedTexture2D::8189406863408969947::1728992121::1728992122::1::::<><>::
+Sapphire.png::CompressedTexture2D::2145020228812112574::1728992121::1728992122::1::::<><>::
+Silver Ingot.png::CompressedTexture2D::7833612074556208344::1728992121::1728992122::1::::<><>::
+Silver Nugget.png::CompressedTexture2D::6552492050317271201::1728992121::1728992122::1::::<><>::
+Topaz.png::CompressedTexture2D::8055304477363028864::1728992121::1728992122::1::::<><>::
+::res://asset/piece/Pixel Art Icon Pack - RPG/Potion/::1728992121
+Blue Potion 2.png::CompressedTexture2D::4096203465328920986::1728992121::1728992122::1::::<><>::
+Blue Potion 3.png::CompressedTexture2D::4818002207404036874::1728992121::1728992122::1::::<><>::
+Blue Potion.png::CompressedTexture2D::233474892500627676::1728992121::1728992122::1::::<><>::
+Empty Bottle.png::CompressedTexture2D::6036821229735513206::1728992121::1728992122::1::::<><>::
+Green Potion 2.png::CompressedTexture2D::7399811061281123218::1728992121::1728992122::1::::<><>::
+Green Potion 3.png::CompressedTexture2D::642031439457156405::1728992121::1728992122::1::::<><>::
+Green Potion.png::CompressedTexture2D::9187125353027252304::1728992121::1728992122::1::::<><>::
+Red Potion 2.png::CompressedTexture2D::2097003349029427938::1728992121::1728992122::1::::<><>::
+Red Potion 3.png::CompressedTexture2D::8000652558133040432::1728992121::1728992122::1::::<><>::
+Red Potion.png::CompressedTexture2D::6297806851619647545::1728992121::1728992122::1::::<><>::
+Water Bottle.png::CompressedTexture2D::5035703056034954334::1728992121::1728992122::1::::<><>::
+::res://asset/piece/Pixel Art Icon Pack - RPG/Weapon & Tool/::1728992121
+Arrow.png::CompressedTexture2D::8466821650188298109::1728992121::1728992122::1::::<><>::
+Axe.png::CompressedTexture2D::417857486832340160::1728992121::1728992122::1::::<><>::
+Bow.png::CompressedTexture2D::6623301939793469523::1728992121::1728992122::1::::<><>::
+Emerald Staff.png::CompressedTexture2D::5050231571207438832::1728992121::1728992122::1::::<><>::
+Golden Sword.png::CompressedTexture2D::4931721091951561433::1728992121::1728992122::1::::<><>::
+Hammer.png::CompressedTexture2D::4360838276387665249::1728992121::1728992122::1::::<><>::
+Iron Shield.png::CompressedTexture2D::5064887519387589208::1728992121::1728992122::1::::<><>::
+Iron Sword.png::CompressedTexture2D::6276510807096658845::1728992121::1728992122::1::::<><>::
+Knife.png::CompressedTexture2D::8014837182869276303::1728992121::1728992122::1::::<><>::
+Magic Wand.png::CompressedTexture2D::1574078214096372402::1728992121::1728992122::1::::<><>::
+Pickaxe.png::CompressedTexture2D::1659364444042696822::1728992121::1728992122::1::::<><>::
+Ruby Staff.png::CompressedTexture2D::6014004642173736749::1728992121::1728992122::1::::<><>::
+Sapphire Staff.png::CompressedTexture2D::5524346403966809235::1728992121::1728992122::1::::<><>::
+Shovel.png::CompressedTexture2D::6276928039394719060::1728992121::1728992122::1::::<><>::
+Silver Sword.png::CompressedTexture2D::5054930950347113032::1728992121::1728992122::1::::<><>::
+Topaz Staff.png::CompressedTexture2D::2371963446570918847::1728992121::1728992122::1::::<><>::
+Torch.png::CompressedTexture2D::5629579577630745080::1728992121::1728992122::1::::<><>::
+Wooden Shield.png::CompressedTexture2D::3466545410988925654::1728992121::1728992122::1::::<><>::
+Wooden Staff.png::CompressedTexture2D::8209525626102129887::1728992121::1728992122::1::::<><>::
+Wooden Sword.png::CompressedTexture2D::4753680965220045229::1728992121::1728992122::1::::<><>::
 ::res://asset/The Adventurer - Free/::1728720855
 frame dimensions.png::CompressedTexture2D::7240844681250581193::1728720854::1728720855::1::::<><>::
 Shadow.png::CompressedTexture2D::5096571148663551252::1728720854::1728720855::1::::<><>::
@@ -148,6 +275,8 @@ walk_left_up.png::CompressedTexture2D::322658336140125902::1728720854::172872085
 walk_right_down.png::CompressedTexture2D::1031070457777516190::1728720854::1728720855::1::::<><>::
 walk_right_up.png::CompressedTexture2D::7834879094682011621::1728720854::1728720855::1::::<><>::
 walk_up.png::CompressedTexture2D::238217261665496927::1728720854::1728720855::1::::<><>::
+::res://asset/ui/::1728992115
+button UI.png::CompressedTexture2D::1161565971007085147::1728992115::1728992115::1::::<><>::
 ::res://Autolaud/::1728807440
 ::res://Autolaud/InputManager/::1728209233
 InputManager.gd::GDScript::-1::1728209233::0::1::::<>Node<>::
@@ -187,10 +316,10 @@ PlayerInput.gd::GDScript::-1::1728209259::0::1::::PlayerInput<>Node<>::
 Credit.tscn::PackedScene::1471009934939137406::1728209563::0::1::::<><>::
 ::res://Scene/GameplayScene/::1728807769
 gameplay_scene.tscn::PackedScene::8609441126896509127::1728807769::0::1::::<><>::uid://csufkj75kpw8u::::res://Entities/Character/Player/player.tscn
-::res://Scene/level_construct/::1728926645
+::res://Scene/level_construct/::1728991912
 inventory.gd::GDScript::-1::1728925982::0::1::::Inventory<>Panel<>::
-level_construct.gd::GDScript::-1::1728926582::0::1::::LevelConstruct<>Node2D<>::
-level_construct.tscn::PackedScene::2524559772317555607::1728926645::0::1::::<><>::res://Scene/level_construct/level_construct.gd<>res://Scene/level_construct/inventory.gd<>res://Scene/level_construct/zone_to_build.gd
+level_construct.gd::GDScript::-1::1728932797::0::1::::LevelConstruct<>Node2D<>::
+level_construct.tscn::PackedScene::2524559772317555607::1728991912::0::1::::<><>::res://Scene/level_construct/level_construct.gd<>res://Scene/level_construct/inventory.gd<>res://Scene/level_construct/zone_to_build.gd
 zone_to_build.gd::GDScript::-1::1728925718::0::1::::ZoneToBuild<>Area2D<>::
 ::res://Scene/Main/::1728807769
 main.gd::GDScript::-1::1728208646::0::1::::<>Node2D<>::
