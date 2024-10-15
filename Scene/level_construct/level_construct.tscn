@@ -1,10 +1,11 @@
-[gd_scene load_steps=14 format=3 uid="uid://bb76eo8ng0ry2"]
+[gd_scene load_steps=15 format=3 uid="uid://bb76eo8ng0ry2"]
 
 [ext_resource type="Script" path="res://Scene/level_construct/level_construct.gd" id="1_afgcu"]
 [ext_resource type="Script" path="res://Scene/level_construct/inventory.gd" id="1_vb5qa"]
 [ext_resource type="Script" path="res://Scene/level_construct/zone_to_build.gd" id="2_qq1s8"]
-[ext_resource type="PackedScene" uid="uid://bkuxrsset6jjm" path="res://Entities/piece_lib/paper.tscn" id="3_b7qlh"]
+[ext_resource type="PackedScene" uid="uid://bkuxrsset6jjm" path="res://Entities/piece_lib/fabric.tscn" id="3_b7qlh"]
 [ext_resource type="PackedScene" uid="uid://dko8700mavvdo" path="res://Entities/Character/Player/mouse.tscn" id="5_078kn"]
+[ext_resource type="Texture2D" uid="uid://qsw27bop1vnn" path="res://asset/ui/button UI.png" id="5_qxnif"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b2huq"]
 size = Vector2(864, 512)
@@ -41,10 +42,6 @@ offset_right = 1156.0
 offset_bottom = 649.0
 script = ExtResource("1_vb5qa")
 
-[node name="paper" parent="inventory" instance=ExtResource("3_b7qlh")]
-position = Vector2(67, 64)
-freeze = true
-
 [node name="zone_to_build" type="Area2D" parent="."]
 monitorable = false
 script = ExtResource("2_qq1s8")
@@ -53,6 +50,9 @@ script = ExtResource("2_qq1s8")
 position = Vector2(720, 256)
 shape = SubResource("RectangleShape2D_b2huq")
 debug_color = Color(0.969649, 0, 0.459968, 0.42)
+
+[node name="paper" parent="zone_to_build" instance=ExtResource("3_b7qlh")]
+position = Vector2(96, 584)
 
 [node name="side" type="Panel" parent="."]
 offset_right = 285.0
@@ -110,9 +110,21 @@ text = "0"
 one_shot = true
 
 [node name="RayCast2D" type="RayCast2D" parent="."]
+visible = false
 top_level = true
-position = Vector2(288, 512)
+position = Vector2(288, 504)
 target_position = Vector2(864, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="RayCast2D"]
+texture = ExtResource("5_qxnif")
+hframes = 12
+vframes = 12
+
+[node name="Sprite2D2" type="Sprite2D" parent="RayCast2D"]
+position = Vector2(864, 0)
+texture = ExtResource("5_qxnif")
+hframes = 12
+vframes = 12
 
 [node name="mouse" parent="." node_paths=PackedStringArray("inventory", "build_zone") instance=ExtResource("5_078kn")]
 position = Vector2(112, 248)

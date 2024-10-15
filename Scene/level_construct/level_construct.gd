@@ -14,6 +14,7 @@ func _ready() -> void:
 func _check()->void:
 	$RayCast2D.global_position = start_pos
 	can_go = true
+	$RayCast2D.show()
 
 func _activate()->void:
 	for child:Node in zone_to_build.get_children():
@@ -26,18 +27,19 @@ func _process(delta: float) -> void:
 	
 	
 	if can_go and $RayCast2D.is_colliding():
-		$RayCast2D.global_position += Vector2(0,1)
+		$RayCast2D.global_position -= Vector2(0,1)
+		_update_score()
 	elif not $RayCast2D.is_colliding():
-		var dif:float = $RayCast2D.global_position.y - start_pos.y
+		var dif:float =abs( $RayCast2D.global_position.y - start_pos.y)
 		if dif < height_requiere: #failure
-			print("fail")
+			pass
 		else: #victory
-			print("good")
+			pass
 
 
 func _on_retry_pressed() -> void:
 	get_tree().reload_current_scene()
 
 func _update_score()->void:
-	var dif:float = $RayCast2D.global_position.y- start_pos.y
+	var dif:float = abs($RayCast2D.global_position.y - start_pos.y)
 	$side/height_level2.text = str(dif)

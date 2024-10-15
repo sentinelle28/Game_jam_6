@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://dhn013l1rqwl2"]
+
+[ext_resource type="PackedScene" uid="uid://ca3rr5u71gq3g" path="res://Common/piece/piece.tscn" id="1_n0oh1"]
+[ext_resource type="Texture2D" uid="uid://4w3a2osj0vdh" path="res://asset/piece/Pixel Art Icon Pack - RPG/Ore & Gem/Copper Ingot.png" id="2_8dkiq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w7wmt"]
+size = Vector2(31.8028, 20)
+
+[node name="ingot" instance=ExtResource("1_n0oh1")]
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_8dkiq")
+
+[node name="CollisionShape2D" parent="." index="1"]
+position = Vector2(-0.241343, -0.24985)
+rotation = 0.802717
+shape = SubResource("RectangleShape2D_w7wmt")
