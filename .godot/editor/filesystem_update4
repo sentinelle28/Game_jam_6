@@ -5,7 +5,7 @@ res://Scene/GameplayScene/gameplay_scene.tscn
 res://Entities/Character/Player/player.tscn
 res://Common/level_object/entry.tscn
 res://Entities/Character/Player/mouse.tscn
-res://Common/piece/piece.tscn
-res://Entities/piece_lib/paper.tscn
-res://Entities/piece_lib/shoes.tscn
-res://Entities/piece_lib/fabric.tscn
+res://Common/level_object/entry.gd
+res://Autolaud/player_location/player_location.gd
+res://Entities/Character/Player/player.gd
+res://Autolaud/SceneTransition/scene_transition.tscn

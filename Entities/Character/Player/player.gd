@@ -19,14 +19,14 @@ func _move(delta:float)->void:
 	var direction:Vector2 = Input.get_vector("ui_left","ui_right","ui_up","ui_down")
 	
 	if direction != Vector2.ZERO:
-		velocity += direction*speed*delta
+		velocity = direction*(speed*100)*delta
 		last_direction = Vector2(custom_clamp(direction.x),custom_clamp(direction.y))
 		$AnimationTree["parameters/playback"].travel("walk")
 		$AnimationTree["parameters/walk/blend_position"] = last_direction
 	else:
 		$AnimationTree["parameters/playback"].travel("idle")
-		velocity.x = lerp(velocity.x,0.0,delta*10)
-		velocity.y = lerp(velocity.y,0.0,delta*10)
+		velocity.x = lerp(velocity.x,0.0,delta*20)
+		velocity.y = lerp(velocity.y,0.0,delta*20)
 		$AnimationTree["parameters/idle/blend_position"] = last_direction
 	velocity.x = clampf(velocity.x,-1000,1000)
 	velocity.y = clampf(velocity.y,-1000,1000)

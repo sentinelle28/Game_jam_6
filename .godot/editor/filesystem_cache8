@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1729001644
+::res://::1729091500
 default_bus_layout.tres::AudioBusLayout::1963651439668976696::1728209388::0::1::::<><>::
 icon.svg::CompressedTexture2D::162903500137596153::1728208646::1728208710::1::::<><>::
 ::res://asset/::1728992109
@@ -112,7 +112,7 @@ frame0015.png::CompressedTexture2D::5250230784951701415::1728925417::1728925418:
 ::res://asset/floating_skull_enemy/floating_skull_enemy/style_E/spritesheet/::1728925418
 spritesheet.png::CompressedTexture2D::1963574419323635710::1728925417::1728925418::1::::<><>::
 spritesheet.txt::TextFile::-1::1728925417::0::1::::<><>::
-::res://asset/hub/::1728992087
+::res://asset/hub/::1729091500
 GothicFurnitureSprites48x48.png::CompressedTexture2D::2852291717625302433::1728925417::1728991942::1::::<><>::
 ::res://asset/hub/HalloweenPack1Free/::1728992100
 ::res://asset/hub/HalloweenPack1Free/HalloweenPack1Free/::1728992087
@@ -123,6 +123,9 @@ Skull.png::CompressedTexture2D::6178317167247454830::1728992087::1728992087::1::
 ::res://asset/hub/Houses_Pack (1)/::1728992082
 houses.png::CompressedTexture2D::4529403212371730319::1728992082::1728992082::1::::<><>::
 public-license.txt::TextFile::-1::1728992082::0::1::::<><>::
+::res://asset/hub/interiors/::1729091477
+Interiors_free_48x48.png::CompressedTexture2D::8999900304494864891::1729091476::1729091501::1::::<><>::
+Room_Builder_free_48x48.png::CompressedTexture2D::5166146751687461888::1729091476::1729091501::1::::<><>::
 ::res://asset/piece/::1728992121
 ::res://asset/piece/Pixel Art Icon Pack - RPG/::1728992121
 ::res://asset/piece/Pixel Art Icon Pack - RPG/Equipment/::1728992122
@@ -295,38 +298,40 @@ Settings.gd::GDScript::-1::1728208646::0::1::::<>Node<>::
 ::res://Common/::1728807862
 ::res://Common/label/::1728208646
 LabelPrefab.tscn::PackedScene::5118899709300226596::1728208646::0::1::::<><>::
-::res://Common/level_object/::1729001917
+::res://Common/level_object/::1729090991
 entry.gd::GDScript::-1::1728807729::0::1::::Entry<>Area2D<>::
-entry.tscn::PackedScene::3692030521868383682::1729001917::0::1::::<><>::res://Common/level_object/entry.gd
-::res://Common/piece/::1729001917
+entry.tscn::PackedScene::3692030521868383682::1729090991::0::1::::<><>::res://Common/level_object/entry.gd
+::res://Common/piece/::1729002113
 piece.gd::GDScript::-1::1728992737::0::1::::Piece<>RigidBody2D<>::
 piece.tscn::PackedScene::4831708099958815182::1729002113::0::1::::<><>::res://Common/piece/piece.gd
 ::res://Entities/::1728992142
 ::res://Entities/Character/::1728208646
-::res://Entities/Character/Player/::1729001917
+::res://Entities/Character/Player/::1729090991
 mouse.gd::GDScript::-1::1728993374::0::1::::<>Area2D<>::
-mouse.tscn::PackedScene::7892113934432652720::1729001917::0::1::::<><>::res://Entities/Character/Player/mouse.gd
+mouse.tscn::PackedScene::7892113934432652720::1729090991::0::1::::<><>::res://Entities/Character/Player/mouse.gd
 player.gd::GDScript::-1::1728807752::0::1::::Player<>CharacterBody2D<>::
-player.tscn::PackedScene::6077850074375796646::1729001917::0::1::::<><>::uid://dtjry3i45lg34::::res://asset/The Adventurer - Free/Idle/idle_down.png<>res://Entities/Character/Player/player.gd<>uid://cnn035y7gmvo6::::res://asset/The Adventurer - Free/Idle/idle_left_down.png<>uid://xgfubeij6tqv::::res://asset/The Adventurer - Free/Idle/idle.png<>uid://pk626tfo4v00::::res://asset/The Adventurer - Free/Walk/walk.png
+player.tscn::PackedScene::6077850074375796646::1729090991::0::1::::<><>::uid://dtjry3i45lg34::::res://asset/The Adventurer - Free/Idle/idle_down.png<>res://Entities/Character/Player/player.gd<>uid://cnn035y7gmvo6::::res://asset/The Adventurer - Free/Idle/idle_left_down.png<>uid://xgfubeij6tqv::::res://asset/The Adventurer - Free/Idle/idle.png<>uid://pk626tfo4v00::::res://asset/The Adventurer - Free/Walk/walk.png
 ::res://Entities/Character/Player/PlayerRelatedClass/::1728208646
 ::res://Entities/Character/Player/PlayerRelatedClass/Input/::1728209259
 PlayerInput.gd::GDScript::-1::1728209259::0::1::::PlayerInput<>Node<>::
-::res://Entities/piece_lib/::1729001917
-paper.tscn::PackedScene::3131024497919775626::1729002147::0::1::::<><>::uid://ca3rr5u71gq3g::::res://Common/piece/piece.tscn<>uid://bp8g7splpaeuj::::res://asset/piece/Pixel Art Icon Pack - RPG/Material/Fabric.png
-shoes.tscn::PackedScene::1619238527852639909::1729002082::0::1::::<><>::uid://ca3rr5u71gq3g::::res://Common/piece/piece.tscn<>uid://dxbxrnnqej2wm::::res://asset/piece/Pixel Art Icon Pack - RPG/Equipment/Leather Boot.png
+::res://Entities/piece_lib/::1729002322
+belt.tscn::PackedScene::3334080242158809417::1729002322::0::1::::<><>::uid://ca3rr5u71gq3g::::res://Common/piece/piece.tscn<>uid://baxo2g8orq4sf::::res://asset/piece/Pixel Art Icon Pack - RPG/Equipment/Belt.png
+fabric.tscn::PackedScene::3131024497919775626::1729002207::0::1::::<><>::uid://ca3rr5u71gq3g::::res://Common/piece/piece.tscn<>uid://bp8g7splpaeuj::::res://asset/piece/Pixel Art Icon Pack - RPG/Material/Fabric.png
+ingot.tscn::PackedScene::7678986711660341881::1729002266::0::1::::<><>::uid://ca3rr5u71gq3g::::res://Common/piece/piece.tscn<>uid://4w3a2osj0vdh::::res://asset/piece/Pixel Art Icon Pack - RPG/Ore & Gem/Copper Ingot.png
+shoes.tscn::PackedScene::1619238527852639909::1729002205::0::1::::<><>::uid://ca3rr5u71gq3g::::res://Common/piece/piece.tscn<>uid://dxbxrnnqej2wm::::res://asset/piece/Pixel Art Icon Pack - RPG/Equipment/Leather Boot.png
 ::res://Scene/::1728807953
 ::res://Scene/CreditScene/::1728209563
 Credit.tscn::PackedScene::1471009934939137406::1728209563::0::1::::<><>::
-::res://Scene/GameplayScene/::1729001917
-gameplay_scene.tscn::PackedScene::8609441126896509127::1729001917::0::1::::<><>::uid://csufkj75kpw8u::::res://Entities/Character/Player/player.tscn
-::res://Scene/level_construct/::1729001953
+::res://Scene/GameplayScene/::1729090991
+gameplay_scene.tscn::PackedScene::8609441126896509127::1729090991::0::1::::<><>::uid://csufkj75kpw8u::::res://Entities/Character/Player/player.tscn
+::res://Scene/level_construct/::1729091019
 inventory.gd::GDScript::-1::1728993209::0::1::::Inventory<>Panel<>::
-level_construct.gd::GDScript::-1::1729001953::0::1::::LevelConstruct<>Node2D<>::
-level_construct.tscn::PackedScene::2524559772317555607::1729002159::0::1::::<><>::res://Scene/level_construct/level_construct.gd<>res://Scene/level_construct/inventory.gd<>res://Scene/level_construct/zone_to_build.gd<>uid://bkuxrsset6jjm::::res://Entities/piece_lib/paper.tscn<>uid://dko8700mavvdo::::res://Entities/Character/Player/mouse.tscn<>uid://qsw27bop1vnn::::res://asset/ui/button UI.png
+level_construct.gd::GDScript::-1::1729091019::0::1::::LevelConstruct<>Node2D<>::
+level_construct.tscn::PackedScene::2524559772317555607::1729091019::0::1::::<><>::res://Scene/level_construct/level_construct.gd<>res://Scene/level_construct/inventory.gd<>res://Scene/level_construct/zone_to_build.gd<>uid://bkuxrsset6jjm::::res://Entities/piece_lib/fabric.tscn<>uid://dko8700mavvdo::::res://Entities/Character/Player/mouse.tscn<>uid://qsw27bop1vnn::::res://asset/ui/button UI.png
 zone_to_build.gd::GDScript::-1::1728925718::0::1::::ZoneToBuild<>Area2D<>::
-::res://Scene/Main/::1729001917
+::res://Scene/Main/::1729090991
 main.gd::GDScript::-1::1728208646::0::1::::<>Node2D<>::
-main.tscn::PackedScene::6561561533638353839::1729001917::0::1::::<><>::res://Scene/Main/main.gd<>uid://bedc63d32lhxo::::res://Scene/Main/Title/animated_title_screen.tscn
+main.tscn::PackedScene::6561561533638353839::1729090991::0::1::::<><>::res://Scene/Main/main.gd<>uid://bedc63d32lhxo::::res://Scene/Main/Title/animated_title_screen.tscn
 ::res://Scene/Main/Title/::1728209259
 animated_title_screen.gd::GDScript::-1::1728208876::0::1::::<>Node2D<>::
 animated_title_screen.tscn::PackedScene::2673547461700926080::1728209259::0::1::::<><>::res://Scene/Main/Title/animated_title_screen.gd<>uid://ce6vsbcffvm4c::::res://Common/label/LabelPrefab.tscn

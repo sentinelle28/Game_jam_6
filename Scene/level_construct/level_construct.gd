@@ -9,6 +9,7 @@ class_name LevelConstruct
 
 func _ready() -> void:
 	$side/height_level.text = str(height_requiere)
+	$build_line.global_position = start_pos - Vector2(0,height_requiere)
 
 
 func _check()->void:
@@ -23,7 +24,7 @@ func _activate()->void:
 	$Timer.start(cooldown)
 
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	
 	
 	if can_go and $RayCast2D.is_colliding():
