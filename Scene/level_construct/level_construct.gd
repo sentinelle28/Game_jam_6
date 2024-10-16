@@ -15,6 +15,7 @@ func _ready() -> void:
 func _check()->void:
 	$RayCast2D.global_position = start_pos
 	can_go = true
+	
 	$RayCast2D.show()
 
 func _activate()->void:
@@ -22,6 +23,7 @@ func _activate()->void:
 		if child is Piece:
 			child._activate()
 	$Timer.start(cooldown)
+	$AnimationPlayer.play("countdown")
 
 
 func _process(_delta: float) -> void:
@@ -33,9 +35,9 @@ func _process(_delta: float) -> void:
 	elif not $RayCast2D.is_colliding():
 		var dif:float =abs( $RayCast2D.global_position.y - start_pos.y)
 		if dif < height_requiere: #failure
-			pass
+			get_tree().reload_current_scene()
 		else: #victory
-			pass
+			SceneTransition._change_scene("res://Scene/GameplayScene/gameplay_scene.tscn")
 
 
 func _on_retry_pressed() -> void:

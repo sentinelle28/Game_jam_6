@@ -1034,10 +1034,11 @@ tile_set = SubResource("TileSet_0sck0")
 
 [node name="levels" type="Node2D" parent="."]
 
-[node name="clock" parent="levels" node_paths=PackedStringArray("label") instance=ExtResource("4_7pjw1")]
+[node name="clock" parent="levels" node_paths=PackedStringArray("label", "player") instance=ExtResource("4_7pjw1")]
 position = Vector2(132, 67)
-path_to_the_level = "res://Scene/level_construct/level_construct.tscn"
+path_to_the_level = "res://Scene/level_construct/tuto/tuto.tscn"
 label = NodePath("Label")
+player = NodePath("../../Player")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="levels/clock"]
 position = Vector2(319, -49)

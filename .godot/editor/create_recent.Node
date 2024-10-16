@@ -1,4 +1,5 @@
 Label
+AnimationPlayer
 CollisionShape2D
 Node2D
 TileMapLayer
@@ -11,4 +12,3 @@ Timer
 Button
 Panel
 MenuBar
-ItemList

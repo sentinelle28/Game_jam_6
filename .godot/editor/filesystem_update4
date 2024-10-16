@@ -1,11 +1,4 @@
 res://Scene/level_construct/level_construct.tscn
 res://Scene/level_construct/level_construct.gd
-res://Scene/Main/main.tscn
+res://Scene/level_construct/tuto/tuto.tscn
 res://Scene/GameplayScene/gameplay_scene.tscn
-res://Entities/Character/Player/player.tscn
-res://Common/level_object/entry.tscn
-res://Entities/Character/Player/mouse.tscn
-res://Common/level_object/entry.gd
-res://Autolaud/player_location/player_location.gd
-res://Entities/Character/Player/player.gd
-res://Autolaud/SceneTransition/scene_transition.tscn
