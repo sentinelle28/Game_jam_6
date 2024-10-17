@@ -23,6 +23,7 @@ func _move(delta:float)->void:
 		last_direction = Vector2(custom_clamp(direction.x),custom_clamp(direction.y))
 		$AnimationTree["parameters/playback"].travel("walk")
 		$AnimationTree["parameters/walk/blend_position"] = last_direction
+		_random_walking()
 	else:
 		$AnimationTree["parameters/playback"].travel("idle")
 		velocity.x = lerp(velocity.x,0.0,delta*20)
@@ -38,3 +39,7 @@ func custom_clamp(value:float)->int:
 		return 1
 	else:
 		return 0
+
+func _random_walking()->void:
+	if randi_range(1,100) < 70:
+		PlayerSignal.emit_signal("random_walking")

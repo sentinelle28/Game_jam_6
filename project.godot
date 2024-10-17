@@ -21,6 +21,7 @@ SceneTransition="*res://Autolaud/SceneTransition/scene_transition.tscn"
 Settings="*res://Autolaud/Settings/Settings.gd"
 MainMusic="*res://Autolaud/MainMusic/main_music.tscn"
 PlayerLocation="*res://Autolaud/player_location/player_location.gd"
+PlayerSignal="*res://Autolaud/player_signal/player_signal.gd"
 
 [input]
 

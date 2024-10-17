@@ -1,0 +1,91 @@
+[gd_scene load_steps=19 format=3 uid="uid://mmgsgjnxjfod"]
+
+[ext_resource type="Texture2D" uid="uid://df7ci48flmhkc" path="res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0000.png" id="1_78me5"]
+[ext_resource type="Texture2D" uid="uid://bx5lhjmmr8e44" path="res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0001.png" id="2_v30yy"]
+[ext_resource type="Texture2D" uid="uid://dcwi2vfumxfa1" path="res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0002.png" id="3_sxgjy"]
+[ext_resource type="Texture2D" uid="uid://b3oxot08skoc0" path="res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0003.png" id="4_brcfs"]
+[ext_resource type="Texture2D" uid="uid://b86yy8lbeviom" path="res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0004.png" id="5_usnss"]
+[ext_resource type="Texture2D" uid="uid://buhp23vkdryo8" path="res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0005.png" id="6_xjxfh"]
+[ext_resource type="Texture2D" uid="uid://dkymjbpypbonr" path="res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0006.png" id="7_7u3n7"]
+[ext_resource type="Texture2D" uid="uid://2a0h6nhvlrc3" path="res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0007.png" id="8_mqs3v"]
+[ext_resource type="Texture2D" uid="uid://c15jc3icd23vy" path="res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0008.png" id="9_6tjx5"]
+[ext_resource type="Texture2D" uid="uid://n8mnqujldkso" path="res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0009.png" id="10_iymdq"]
+[ext_resource type="Texture2D" uid="uid://d3p3n63mrchoc" path="res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0010.png" id="11_mqxro"]
+[ext_resource type="Texture2D" uid="uid://bp8ujlu6dsfo3" path="res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0011.png" id="12_75k77"]
+[ext_resource type="Texture2D" uid="uid://vtq2xt5eo6xq" path="res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0012.png" id="13_m4r66"]
+[ext_resource type="Texture2D" uid="uid://bvavdgdb705vm" path="res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0013.png" id="14_khd8m"]
+[ext_resource type="Texture2D" uid="uid://dl1bh1nfbboki" path="res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0014.png" id="15_1tr7p"]
+[ext_resource type="Texture2D" uid="uid://bhs27qilopr7i" path="res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0015.png" id="16_vbd2s"]
+[ext_resource type="Script" path="res://Entities/skull/skull.gd" id="17_mmcra"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_db5ww"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_78me5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_v30yy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_sxgjy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_brcfs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_usnss")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_xjxfh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_7u3n7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_mqs3v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_6tjx5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_iymdq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_mqxro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_75k77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_m4r66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_khd8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_1tr7p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_vbd2s")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="skull" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_db5ww")
+autoplay = "default"
+frame_progress = 0.78446
+script = ExtResource("17_mmcra")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 24.0
+offset_top = -8.0
+offset_right = 64.0
+offset_bottom = 15.0
+
+[node name="speaking_cooldown" type="Timer" parent="."]
+
+[connection signal="timeout" from="speaking_cooldown" to="." method="_on_speaking_cooldown_timeout"]

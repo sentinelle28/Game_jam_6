@@ -1,10 +1,11 @@
-[gd_scene load_steps=141 format=3 uid="uid://csufkj75kpw8u"]
+[gd_scene load_steps=142 format=3 uid="uid://csufkj75kpw8u"]
 
 [ext_resource type="Texture2D" uid="uid://dtjry3i45lg34" path="res://asset/The Adventurer - Free/Idle/idle_down.png" id="1_oer5d"]
 [ext_resource type="Script" path="res://Entities/Character/Player/player.gd" id="1_wjrrw"]
 [ext_resource type="Texture2D" uid="uid://cnn035y7gmvo6" path="res://asset/The Adventurer - Free/Idle/idle_left_down.png" id="2_v1umk"]
 [ext_resource type="Texture2D" uid="uid://xgfubeij6tqv" path="res://asset/The Adventurer - Free/Idle/idle.png" id="3_qcfcu"]
 [ext_resource type="Texture2D" uid="uid://pk626tfo4v00" path="res://asset/The Adventurer - Free/Walk/walk.png" id="4_xxlhv"]
+[ext_resource type="PackedScene" uid="uid://mmgsgjnxjfod" path="res://Entities/skull/skull.tscn" id="6_qt6jy"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ntmpk"]
 size = Vector2(20, 25)
@@ -1253,3 +1254,6 @@ parameters/walk/blend_position = Vector2(-0.00477958, -0.0701107)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(2, 2)
+
+[node name="skull" parent="." instance=ExtResource("6_qt6jy")]
+position = Vector2(-71, -28)

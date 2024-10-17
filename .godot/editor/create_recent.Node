@@ -1,4 +1,6 @@
+Timer
 Label
+AnimatedSprite2D
 AnimationPlayer
 CollisionShape2D
 Node2D
@@ -8,7 +10,5 @@ ColorRect
 Sprite2D
 StaticBody2D
 RayCast2D
-Timer
 Button
 Panel
-MenuBar

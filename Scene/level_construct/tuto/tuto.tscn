@@ -20,6 +20,9 @@ position = Vector2(323, 104)
 [node name="shoes5" parent="inventory" index="4" instance=ExtResource("2_484ju")]
 position = Vector2(387, 104)
 
+[node name="test" parent="side" index="0"]
+text = "Test your build"
+
 [node name="info" type="Label" parent="." index="11"]
 offset_left = 168.0
 offset_top = 536.0
