@@ -1,8 +1,2 @@
-res://Scene/level_construct/tuto/tuto.tscn
-res://Entities/skull/skull.tscn
-res://Entities/skull/skull.gd
-res://Autolaud/player_signal/player_signal.gd
-res://Entities/Character/Player/player.gd
-res://Entities/Character/Player/mouse.tscn
-res://Entities/Character/Player/mouse.gd
-res://Entities/Character/Player/player.tscn
+res://Scene/cutscene/cutscene.tscn
+res://Scene/cutscene/cutscene.gd
