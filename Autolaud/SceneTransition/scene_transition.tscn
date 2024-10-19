@@ -76,6 +76,7 @@ _data = {
 }
 
 [node name="SceneTransition" type="CanvasLayer"]
+visible = false
 script = ExtResource("1_ly6q4")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]

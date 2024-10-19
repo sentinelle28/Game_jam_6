@@ -1,2 +1,11 @@
+res://Entities/skull/skull.tscn
+res://Entities/skull/skull.gd
 res://Scene/cutscene/cutscene.tscn
+res://Scene/Main/main.tscn
+res://Scene/GameplayScene/gameplay_scene.tscn
+res://Entities/Character/Player/player.tscn
+res://Entities/Character/Player/mouse.tscn
+res://Scene/level_construct/level_construct.tscn
+res://Autolaud/SceneTransition/scene_transition.tscn
 res://Scene/cutscene/cutscene.gd
+res://Scene/Main/main.gd

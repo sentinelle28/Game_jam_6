@@ -1,4 +1,5 @@
 res://asset/The Adventurer - Free/Walk
+res://asset/ui
 res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG
 res://Scene/cutscene
 res://Autolaud/player_signal
@@ -8,7 +9,6 @@ res://Entities/piece_lib
 res://asset/piece/Pixel Art Icon Pack - RPG/Equipment
 res://asset/piece/Pixel Art Icon Pack - RPG/Ore & Gem
 res://asset/piece/Pixel Art Icon Pack - RPG/Material
-res://asset/ui
 res://Entities/Character/Player
 res://Scene/level_construct
 res://Common/piece

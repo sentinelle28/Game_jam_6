@@ -1,6 +1,8 @@
 extends AnimatedSprite2D
 
+@export var player:Node2D
 @onready var cooldown:Timer = $speaking_cooldown
+@export var speed:int = 100
 var is_currently_speaking:bool = false
 var next_text_to_say:Array[String] = []
 
@@ -11,7 +13,8 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	pass
+	global_position.x = move_toward(global_position.x,player.global_position.x,delta*speed)
+	global_position.y = move_toward(global_position.y,player.global_position.y,delta*speed)
 
 func _speak(message:String)->void:
 	if is_currently_speaking:
@@ -23,7 +26,7 @@ func _speak(message:String)->void:
 func _queue_for_speak(message:String)->void:
 	next_text_to_say.append(message)
 	if len(next_text_to_say) > 4:
-		next_text_to_say.erase(0)
+		next_text_to_say.remove_at(0)
 	
 func _show_message(message:String)->void:
 	$Label.text = message
@@ -45,7 +48,8 @@ func _random_walking()->void:
 	_speak("Do not worry about the weirdness of the task \n perhaps you should focus on getting the job done ")
 
 func _took_piece(piece:Piece)->void:
-	_speak("Oh you took "+piece.name)
+	if randi_range(1,10) > 7:
+		_speak("Oh you took "+piece.name)
 	
 func _activate(message:String)->void:
 	cooldown.start(len(message)/10)
