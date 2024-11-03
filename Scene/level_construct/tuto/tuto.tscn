@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://xcmvfakkcyn2" path="res://Entities/piece_lib/shoes.tscn" id="2_484ju"]
 
 [node name="level_construct" instance=ExtResource("1_godao")]
+height_requiere = 10
 
 [node name="shoes" parent="inventory" index="0" instance=ExtResource("2_484ju")]
 position = Vector2(99, 88)

@@ -37,7 +37,7 @@ func _on_speaking_cooldown_timeout() -> void:
 func _check_queue()->bool:
 	if len(next_text_to_say) != 0:
 		_show_message(next_text_to_say[0])
-		next_text_to_say.erase(0)
+		next_text_to_say.remove_at(0)
 		if len(next_text_to_say) == 0:
 			return false
 	else:

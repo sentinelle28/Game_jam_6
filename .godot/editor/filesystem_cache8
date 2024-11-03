@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1729326665
+::res://::1729342646
 default_bus_layout.tres::AudioBusLayout::1963651439668976696::1728209388::0::1::::<><>::
 icon.svg::CompressedTexture2D::162903500137596153::1728208646::1729326665::1::::<><>::
 ::res://asset/::1729328542
-::res://asset/background/::1729328546
+::res://asset/background/::1729328547
 Space Background.png::CompressedTexture2D::5591671959779131854::1729328546::1729328547::1::::<><>::
 ::res://asset/floating_skull_enemy/::1728925417
 ::res://asset/floating_skull_enemy/floating_skull_enemy/::1728925417
@@ -308,11 +308,11 @@ piece.gd::GDScript::-1::1728992737::0::1::::Piece<>RigidBody2D<>::
 piece.tscn::PackedScene::4831708099958815182::1729002113::0::1::::<><>::res://Common/piece/piece.gd
 ::res://Entities/::1729182425
 ::res://Entities/Character/::1728208646
-::res://Entities/Character/Player/::1729328326
+::res://Entities/Character/Player/::1729329108
 mouse.gd::GDScript::-1::1729182425::0::1::::<>Area2D<>::
-mouse.tscn::PackedScene::7892113934432652720::1729328326::0::1::::<><>::res://Entities/Character/Player/mouse.gd
+mouse.tscn::PackedScene::7892113934432652720::1729329108::0::1::::<><>::res://Entities/Character/Player/mouse.gd
 player.gd::GDScript::-1::1729182425::0::1::::Player<>CharacterBody2D<>::
-player.tscn::PackedScene::6077850074375796646::1729328326::0::1::::<><>::uid://dtjry3i45lg34::::res://asset/The Adventurer - Free/Idle/idle_down.png<>res://Entities/Character/Player/player.gd<>uid://cnn035y7gmvo6::::res://asset/The Adventurer - Free/Idle/idle_left_down.png<>uid://xgfubeij6tqv::::res://asset/The Adventurer - Free/Idle/idle.png<>uid://pk626tfo4v00::::res://asset/The Adventurer - Free/Walk/walk.png
+player.tscn::PackedScene::6077850074375796646::1729329108::0::1::::<><>::uid://dtjry3i45lg34::::res://asset/The Adventurer - Free/Idle/idle_down.png<>res://Entities/Character/Player/player.gd<>uid://cnn035y7gmvo6::::res://asset/The Adventurer - Free/Idle/idle_left_down.png<>uid://xgfubeij6tqv::::res://asset/The Adventurer - Free/Idle/idle.png<>uid://pk626tfo4v00::::res://asset/The Adventurer - Free/Walk/walk.png
 ::res://Entities/Character/Player/PlayerRelatedClass/::1728208646
 ::res://Entities/Character/Player/PlayerRelatedClass/Input/::1728209259
 PlayerInput.gd::GDScript::-1::1728209259::0::1::::PlayerInput<>Node<>::
@@ -321,28 +321,28 @@ belt.tscn::PackedScene::3334080242158809417::1729002322::0::1::::<><>::uid://ca3
 fabric.tscn::PackedScene::3131024497919775626::1729002207::0::1::::<><>::uid://ca3rr5u71gq3g::::res://Common/piece/piece.tscn<>uid://bp8g7splpaeuj::::res://asset/piece/Pixel Art Icon Pack - RPG/Material/Fabric.png
 ingot.tscn::PackedScene::7678986711660341881::1729002266::0::1::::<><>::uid://ca3rr5u71gq3g::::res://Common/piece/piece.tscn<>uid://4w3a2osj0vdh::::res://asset/piece/Pixel Art Icon Pack - RPG/Ore & Gem/Copper Ingot.png
 shoes.tscn::PackedScene::1619238527852639909::1729002205::0::1::::<><>::uid://ca3rr5u71gq3g::::res://Common/piece/piece.tscn<>uid://dxbxrnnqej2wm::::res://asset/piece/Pixel Art Icon Pack - RPG/Equipment/Leather Boot.png
-::res://Entities/skull/::1729328326
+::res://Entities/skull/::1729329108
 skull.gd::GDScript::-1::1729328025::0::1::::<>AnimatedSprite2D<>::
-skull.tscn::PackedScene::867435432617089675::1729328326::0::1::::<><>::uid://df7ci48flmhkc::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0000.png<>uid://bx5lhjmmr8e44::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0001.png<>uid://dcwi2vfumxfa1::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0002.png<>uid://b3oxot08skoc0::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0003.png<>uid://b86yy8lbeviom::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0004.png<>uid://buhp23vkdryo8::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0005.png<>uid://dkymjbpypbonr::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0006.png<>uid://2a0h6nhvlrc3::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0007.png<>uid://c15jc3icd23vy::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0008.png<>uid://n8mnqujldkso::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0009.png<>uid://d3p3n63mrchoc::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0010.png<>uid://bp8ujlu6dsfo3::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0011.png<>uid://vtq2xt5eo6xq::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0012.png<>uid://bvavdgdb705vm::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0013.png<>uid://dl1bh1nfbboki::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0014.png<>uid://bhs27qilopr7i::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0015.png<>res://Entities/skull/skull.gd
+skull.tscn::PackedScene::867435432617089675::1729329108::0::1::::<><>::uid://df7ci48flmhkc::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0000.png<>uid://bx5lhjmmr8e44::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0001.png<>uid://dcwi2vfumxfa1::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0002.png<>uid://b3oxot08skoc0::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0003.png<>uid://b86yy8lbeviom::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0004.png<>uid://buhp23vkdryo8::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0005.png<>uid://dkymjbpypbonr::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0006.png<>uid://2a0h6nhvlrc3::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0007.png<>uid://c15jc3icd23vy::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0008.png<>uid://n8mnqujldkso::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0009.png<>uid://d3p3n63mrchoc::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0010.png<>uid://bp8ujlu6dsfo3::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0011.png<>uid://vtq2xt5eo6xq::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0012.png<>uid://bvavdgdb705vm::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0013.png<>uid://dl1bh1nfbboki::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0014.png<>uid://bhs27qilopr7i::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0015.png<>res://Entities/skull/skull.gd
 ::res://Scene/::1729182425
 ::res://Scene/CreditScene/::1728209563
 Credit.tscn::PackedScene::1471009934939137406::1728209563::0::1::::<><>::
 ::res://Scene/cutscene/::1729327372
 cutscene.gd::GDScript::-1::1729327372::0::1::::<>Node2D<>::
 cutscene.tscn::PackedScene::3362554712570158185::1729327372::0::1::::<><>::res://Scene/cutscene/cutscene.gd<>uid://df7ci48flmhkc::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0000.png<>uid://bx5lhjmmr8e44::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0001.png<>uid://dcwi2vfumxfa1::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0002.png<>uid://b3oxot08skoc0::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0003.png<>uid://b86yy8lbeviom::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0004.png<>uid://buhp23vkdryo8::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0005.png<>uid://dkymjbpypbonr::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0006.png<>uid://2a0h6nhvlrc3::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0007.png<>uid://c15jc3icd23vy::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0008.png<>uid://n8mnqujldkso::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0009.png<>uid://d3p3n63mrchoc::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0010.png<>uid://bp8ujlu6dsfo3::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0011.png<>uid://vtq2xt5eo6xq::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0012.png<>uid://bvavdgdb705vm::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0013.png<>uid://dl1bh1nfbboki::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0014.png<>uid://bhs27qilopr7i::::res://asset/floating_skull_enemy/floating_skull_enemy/style_A/PNG/frame0015.png<>uid://pk626tfo4v00::::res://asset/The Adventurer - Free/Walk/walk.png<>uid://cfurxgv343rns::::res://asset/hub/interiors/Room_Builder_free_48x48.png
-::res://Scene/GameplayScene/::1729328326
-gameplay_scene.tscn::PackedScene::8609441126896509127::1729328326::0::1::::<><>::uid://csufkj75kpw8u::::res://Entities/Character/Player/player.tscn<>uid://bgvw3fam2muyr::::res://asset/hub/GothicFurnitureSprites48x48.png<>uid://bsupg583cq403::::res://Common/level_object/entry.tscn<>uid://cfurxgv343rns::::res://asset/hub/interiors/Room_Builder_free_48x48.png<>uid://mmgsgjnxjfod::::res://Entities/skull/skull.tscn
-::res://Scene/level_construct/::1729328326
+::res://Scene/GameplayScene/::1729329108
+gameplay_scene.tscn::PackedScene::8609441126896509127::1729329108::0::1::::<><>::uid://csufkj75kpw8u::::res://Entities/Character/Player/player.tscn<>uid://bgvw3fam2muyr::::res://asset/hub/GothicFurnitureSprites48x48.png<>uid://bsupg583cq403::::res://Common/level_object/entry.tscn<>uid://cfurxgv343rns::::res://asset/hub/interiors/Room_Builder_free_48x48.png<>uid://mmgsgjnxjfod::::res://Entities/skull/skull.tscn
+::res://Scene/level_construct/::1729329108
 inventory.gd::GDScript::-1::1728993209::0::1::::Inventory<>Panel<>::
 level_construct.gd::GDScript::-1::1729095565::0::1::::LevelConstruct<>Node2D<>::
-level_construct.tscn::PackedScene::2524559772317555607::1729328326::0::1::::<><>::res://Scene/level_construct/level_construct.gd<>res://Scene/level_construct/inventory.gd<>res://Scene/level_construct/zone_to_build.gd<>uid://bkuxrsset6jjm::::res://Entities/piece_lib/fabric.tscn<>uid://dko8700mavvdo::::res://Entities/Character/Player/mouse.tscn<>uid://qsw27bop1vnn::::res://asset/ui/button UI.png<>uid://mmgsgjnxjfod::::res://Entities/skull/skull.tscn
+level_construct.tscn::PackedScene::2524559772317555607::1729329108::0::1::::<><>::res://Scene/level_construct/level_construct.gd<>res://Scene/level_construct/inventory.gd<>res://Scene/level_construct/zone_to_build.gd<>uid://bkuxrsset6jjm::::res://Entities/piece_lib/fabric.tscn<>uid://dko8700mavvdo::::res://Entities/Character/Player/mouse.tscn<>uid://qsw27bop1vnn::::res://asset/ui/button UI.png<>uid://mmgsgjnxjfod::::res://Entities/skull/skull.tscn
 zone_to_build.gd::GDScript::-1::1728925718::0::1::::ZoneToBuild<>Area2D<>::
 ::res://Scene/level_construct/level_1/::1729095136
 ::res://Scene/level_construct/tuto/::1729182425
 tuto.tscn::PackedScene::2816240619399756360::1729182425::0::1::::<><>::uid://bb76eo8ng0ry2::::res://Scene/level_construct/level_construct.tscn<>uid://xcmvfakkcyn2::::res://Entities/piece_lib/shoes.tscn
-::res://Scene/Main/::1729328325
-main.gd::GDScript::-1::1729328325::0::1::::<>Node2D<>::
-main.tscn::PackedScene::6561561533638353839::1729328325::0::1::::<><>::res://Scene/Main/main.gd<>uid://pk626tfo4v00::::res://asset/The Adventurer - Free/Walk/walk.png
+::res://Scene/Main/::1729329107
+main.gd::GDScript::-1::1729329107::0::1::::<>Node2D<>::
+main.tscn::PackedScene::6561561533638353839::1729329107::0::1::::<><>::res://Scene/Main/main.gd<>uid://pk626tfo4v00::::res://asset/The Adventurer - Free/Walk/walk.png<>uid://clwwaxm5e7u5c::::res://asset/background/Space Background.png
 ::res://Scene/Main/Title/::1728209259
 animated_title_screen.gd::GDScript::-1::1728208876::0::1::::<>Node2D<>::
 animated_title_screen.tscn::PackedScene::2673547461700926080::1728209259::0::1::::<><>::res://Scene/Main/Title/animated_title_screen.gd<>uid://ce6vsbcffvm4c::::res://Common/label/LabelPrefab.tscn

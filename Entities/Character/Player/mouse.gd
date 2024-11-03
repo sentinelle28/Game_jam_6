@@ -29,7 +29,6 @@ func _on_body_exited(body: Node2D) -> void:
 func _take_piece(_delta:float)->void:
 	if selected_piece!= null:
 		if Input.is_action_pressed("pick_up"):
-			build_zone._add_child(selected_piece)
 			selected_piece.global_position.x = global_position.x
 			selected_piece.global_position.y = global_position.y
 		elif Input.is_action_just_released("pick_up"):
@@ -37,6 +36,7 @@ func _take_piece(_delta:float)->void:
 				inventory._add_child(selected_piece)
 				selected_piece = null
 			else:
+				build_zone._add_child(selected_piece)
 				selected_piece.global_position = global_position
 				selected_piece = null
 

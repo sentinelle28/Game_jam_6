@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://bdfch6xfww3vr"]
+
+[ext_resource type="PackedScene" uid="uid://ca3rr5u71gq3g" path="res://Common/piece/piece.tscn" id="1_ptd3o"]
+[ext_resource type="Texture2D" uid="uid://cxxrwohxg77wv" path="res://asset/piece/Pixel Art Icon Pack - RPG/Material/Rope.png" id="2_uqtyf"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_vdq5w"]
+bounce = 0.2
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5t35t"]
+size = Vector2(36.0291, 20)
+
+[node name="rope" instance=ExtResource("1_ptd3o")]
+physics_material_override = SubResource("PhysicsMaterial_vdq5w")
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_uqtyf")
+
+[node name="CollisionShape2D" parent="." index="1"]
+position = Vector2(-0.5, 0)
+rotation = 0.799448
+shape = SubResource("RectangleShape2D_5t35t")
